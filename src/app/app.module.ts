@@ -6,12 +6,9 @@ import { ContadorComponent } from './contador/contador.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { ListadoComponent } from './heroes/listado/listado.component';
 
-<<<<<<< HEAD
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
 import { DbzModule } from './dbz/dbz.module';
-=======
->>>>>>> parent of 2d67ccc (primer commit)
 
 
 @NgModule({
@@ -22,14 +19,11 @@ import { DbzModule } from './dbz/dbz.module';
     ListadoComponent
   ],
   imports: [
-<<<<<<< HEAD
     BrowserModule,
     HeroesModule,
     ContadorModule,
-    DbzModule
-=======
+    DbzModule,
     BrowserModule
->>>>>>> parent of 2d67ccc (primer commit)
   ],
   providers: [],
   bootstrap: [AppComponent]
